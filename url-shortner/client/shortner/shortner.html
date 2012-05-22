@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>shortner</title>
+    <style>
+
+#urldiv input {vertical-align:middle; font-weight:bold; font-size: 12px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+#urldiv input[type="text"] {width:136px; padding:10px 95px 10px 10px; background:#ddd; border:1px solid #bbb;}
+#urldiv button {width:80px; margin-left:-87px; padding:8px; border:none; color:#fff; background: #1296bc; text-shadow:0px -1px 2px rgba(0,0,0,.7);cursor:pointer;-moz-border-radius:2px; -webkit-border-radius:2px;}
+#urldiv button::-moz-focus-inner {border:0;}
+#urldiv button:focus {background:#333;}
+
+#surl a {vertical-align:middle; font-weight:bold; font-size: 12px; -moz-border-radius:4px; -webkit-border-radius:4px;}
+#surl a {width:136px; padding:10px 95px 10px 10px; background:#ddd; border:1px solid #bbb;}
+    </style>
+  </head>
+  <body>
+	  <div align=center>
+	  	<div id="urldiv">
+			<input id="urlInput" type="text" /><button id="go">go</button>
+		</div>
+		<br/>
+		<div>
+	    	<div id="surl"></div>
+	    </div>
+	  </div>
+    <script type="application/dart" src="shortner.dart"></script>
+    <script src="http://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+  </body>
+</html>
